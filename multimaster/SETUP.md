@@ -1,9 +1,9 @@
 # multimaster_fkie
-## What is [multimaster_fkie]()?
+## What is [multimaster_fkie](http://wiki.ros.org/multimaster_fkie)?
 The ROS stack of ***fkie_multimaster*** offers a complete solution for using ROS with multicores. In addition, Node Manager with a daemon provide a GUI-based management environment that is very useful to manage ROS-launch configurations and control running nodes, also in a single-core system.
 
 ## Install
-The first step is to install Python [gRPC](), which helps in communication purposes.
+The first step is to install Python [gRPC](https://grpc.io/), which helps in communication purposes.
 ```
 sudo apt install python-grpcio python-grpc-tools
 ```
@@ -17,7 +17,6 @@ After installation of all the packages, we need to build the same using `catkin_
 
 ## References
 [ROS Wiki for multimaster](http://wiki.ros.org/multimaster_fkie)  
-[Github]()  
-[Programming
-Robots
-with ROS](../Programming_Robots_with_ROS.pdf)
+[Github](https://github.com/fkie/multimaster_fkie)  
+[gRPC](https://grpc.io/)
+[Programming Robots with ROS](../Programming_Robots_with_ROS.pdf)
