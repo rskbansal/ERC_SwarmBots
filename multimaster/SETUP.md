@@ -4,6 +4,6 @@ The ROS stack of ***fkie_multimaster*** offers a complete solution for using ROS
 
 ## Install
 The first step is to install Python [gRPC](), which helps in communication purposes.
-`
+```
 sudo apt install python-grpcio python-grpc-tools
-`
+```
