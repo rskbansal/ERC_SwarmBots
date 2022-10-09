@@ -6,9 +6,4 @@ Hello There
 Hello There
 + Thing
 
-    $incude<bits/stdc++.h>  
-    using namespace std;  
-    int main()  
-    {  
-      return 0;  
-    }
+At the command prompt, type `pip install git`.
