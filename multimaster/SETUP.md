@@ -7,10 +7,17 @@ The first step is to install Python [gRPC](), which helps in communication purpo
 ```
 sudo apt install python-grpcio python-grpc-tools
 ```
-Now, make sure you are present in the `src` folder of your **catkin workspace**, just type `cd ~/catkin_ws/src` and then, execute the following commands :-
+Now, make sure you are present in the `src` folder of your ***catkin workspace***, just type `cd ~/catkin_ws/src`. And then, execute the following commands :-
 ```
 git clone https://github.com/fkie/multimaster_fkie.git multimaster
 rosdep update
 rosdep install -i --as-root pip:false --reinstall --from-paths multimaster
 ```
 After installation of all the packages, we need to build the same using `catkin_make fkie_multimaster`.
+
+## References
+[ROS Wiki for multimaster](http://wiki.ros.org/multimaster_fkie)  
+[Github]()  
+[Programming
+Robots
+with ROS](../Programming_Robots_with_ROS)
