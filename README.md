@@ -1,6 +1,5 @@
 # ERC_SwarmBots
 <img src="assets/img/ERC_logo.png" alt="drawing" height="80"/>
-&emsp;
 <img src="assets/img/ROS_logo.png" alt="drawing" height="40"/>
 
 Repository for Project SwarmBots by ERC  
