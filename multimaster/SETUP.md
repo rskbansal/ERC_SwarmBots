@@ -15,7 +15,7 @@ rosdep update
 rosdep install -i --as-root pip:false --reinstall --from-paths multimaster
 ```
 After installation of all the packages, we need to build the same using `catkin_make` command. But make sure that before running the command, you are present in the root of your ***catkin workspace***, just type `cd ~/catkin_ws`.
-
+<br><br>
 > Congratulations! You have succefully installed multimaster_fkie for your workspace and now you can start working with multiple masters. For any further queries, you may refer the below mentioned resources :)
 
 ## References
