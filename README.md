@@ -3,7 +3,7 @@
 
 Repository for Project SwarmBots by ERC  
 You are expected to have [Ubuntu Focal Fossa (20.04)](https://releases.ubuntu.com/focal/) for smooth functioning of ROS  
-We will be using the ***ROS Noetic Ninjemys*** for our project
+We will be using the [ROS Noetic Ninjemys](https://wiki.ros.org/noetic/) for our project
 ## Contents
 - Nodes on multiple machines
 - multimaster
