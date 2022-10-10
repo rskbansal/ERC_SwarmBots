@@ -1,6 +1,8 @@
 # ERC_SwarmBots
-![ERClogo](/assets/img/ERC_logo.png){.center}
-![ROS logo](/assets/img/ROS_logo.png)  
+<img src="assets/img/ERC_logo.png" alt="drawing" height="80"/>
+&emsp;
+<!-- <img src="assets/img/ROS_logo.png" alt="drawing" height="40"/> -->
+
 Repository for Project SwarmBots by ERC  
 You are expected to have [Ubuntu Focal Fossa (20.04)](https://releases.ubuntu.com/focal/) for smooth functioning of ROS  
 We will be using the ***ROS Noetic Ninjemys*** for our project
@@ -12,3 +14,9 @@ We will be using the ***ROS Noetic Ninjemys*** for our project
 - [ROS Wiki](https://wiki.ros.org/)
 - [Programming Robots with ROS](/Programming_Robots_with_ROS.pdf)
 - [Official ERC Repository](https://github.com/ERC-BPGC/swarm_bots)
+
+<style>
+.center {
+  width: 10px;
+}
+</style>
