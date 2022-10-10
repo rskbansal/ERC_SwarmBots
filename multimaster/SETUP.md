@@ -15,10 +15,10 @@ rosdep install -i --as-root pip:false --reinstall --from-paths multimaster
 ```
 After installation of all the packages, we need to build the same using `catkin_make` command. But make sure that before running the command, you are present in the root of your ***catkin workspace***, just type `cd ~/catkin_ws`.
 
+> Congratulations! You have succefully installed multimaster_fkie for your workspace and can start working with multiple masters now. For any further information, you may refer these resources :)
+
 ## References
 [ROS Wiki for multimaster](http://wiki.ros.org/multimaster_fkie)  
 [Official Github](https://github.com/fkie/multimaster_fkie)  
 [gRPC](https://grpc.io/)  
 [Programming Robots with ROS](../Programming_Robots_with_ROS.pdf)
-
-> Congratulations! You have succefully installed multimaster_fkie for your workspace and can start working with multiple masters now. For any further information, you may refer these resources :)
