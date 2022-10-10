@@ -1,5 +1,5 @@
 # ERC_SwarmBots
-![ERC logo](/assets/img/ERC_logo.png)
+![ERClogo](/assets/img/ERC_logo.png)
 ![ROS logo](/assets/img/ROS_logo.png)  
 Repository for Project SwarmBots by ERC  
 You are expected to have [Ubuntu Focal Fossa (20.04)](https://releases.ubuntu.com/focal/) for smooth functioning of ROS  
