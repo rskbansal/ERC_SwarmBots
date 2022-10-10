@@ -13,9 +13,3 @@ We will be using the ***ROS Noetic Ninjemys*** for our project
 - [ROS Wiki](https://wiki.ros.org/)
 - [Programming Robots with ROS](/Programming_Robots_with_ROS.pdf)
 - [Official ERC Repository](https://github.com/ERC-BPGC/swarm_bots)
-
-<style>
-.center {
-  width: 10px;
-}
-</style>
