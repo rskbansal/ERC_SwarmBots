@@ -20,3 +20,5 @@ After installation of all the packages, we need to build the same using `catkin_
 [Official Github](https://github.com/fkie/multimaster_fkie)  
 [gRPC](https://grpc.io/)  
 [Programming Robots with ROS](../Programming_Robots_with_ROS.pdf)
+
+> Congratulations! You have succefully installed multimaster_fkie for your workspace and can start working with multiple masters now. For any further information, you may refer these resources :)
