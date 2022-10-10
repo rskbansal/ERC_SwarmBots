@@ -1,7 +1,7 @@
 # ERC_SwarmBots
 <img src="assets/img/ERC_logo.png" alt="drawing" height="80"/>
 &emsp;
-<!-- <img src="assets/img/ROS_logo.png" alt="drawing" height="40"/> -->
+<img src="assets/img/ROS_logo.png" alt="drawing" height="40"/>
 
 Repository for Project SwarmBots by ERC  
 You are expected to have [Ubuntu Focal Fossa (20.04)](https://releases.ubuntu.com/focal/) for smooth functioning of ROS  
