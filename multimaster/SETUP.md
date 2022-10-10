@@ -1,6 +1,5 @@
 # multimaster_fkie
 <img src="../assets/img/ROS_logo.png" alt="drawing" height="40"/>
-<br>
 
 Everything you need to get started with multiple masters in ROS!
 ## What is [multimaster_fkie](http://wiki.ros.org/multimaster_fkie)?
