@@ -2,7 +2,7 @@
 <img src="assets/img/ERC_logo.png" alt="drawing" height="80"/>  
 
 Repository for Project SwarmBots by ERC  
-You are expected to have [Ubuntu Focal Fossa (20.04)](https://releases.ubuntu.com/focal/) for smooth functioning of ROS  
+You are expected to have [Ubuntu 20.04 LTS (Focal Fossa)](https://releases.ubuntu.com/focal/) for smooth functioning of ROS  
 We will be using the [ROS Noetic Ninjemys](https://wiki.ros.org/noetic/) for our project
 ## Contents
 - Nodes on multiple machines
