@@ -21,8 +21,7 @@ net.ipv4.icmp_echo_ignore_broadcasts=0
 Once added, type `sudo service procps restart` for the changes to take effect
 ## Example run
 Now, we will launch ***fkie_multimaster*** nodes on different machines. The first step is to launch `roscore` on all the machines.  
-Then, open a new terminal instance and launch the <span style="background-color: #FFFF00">master_discovery</span>
- node on each machine.
+Then, open a new terminal instance and launch the `master_discovery` node on each machine.
 ```
 rosrun fkie_master_discovery master_discovery _mcast_group:=224.0.0.1
 ```
@@ -35,3 +34,9 @@ To check all the ROS masters available at the same network, execute the followin
 rosservice call /master_discovery/list_masters
 ```
 Now we may test a simple ***talker-listener*** program using [rospy_tutorials](http://wiki.ros.org/rospy_tutorials). Simply launch `talker` node on one of the machines and `listener` on the rest.
+
+> **Note**  
+> This is a note
+
+> **Warning**  
+> This is a warning
