@@ -16,9 +16,9 @@ sudo sh -c "echo 0 >/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts"
 ```
 > **Note**  
 > To enable it permanently, type `sudo nano ~/../../etc/sysctl.conf` and add the following line to the file
-```
-net.ipv4.icmp_echo_ignore_broadcasts=0
-```
+> ```
+> net.ipv4.icmp_echo_ignore_broadcasts=0
+> ```
 > Once added, type `sudo service procps restart` for the changes to take effect
 ## Example run
 Now, we will launch ***fkie_multimaster*** nodes on different machines. The first step is to launch `roscore` on all the machines.  
