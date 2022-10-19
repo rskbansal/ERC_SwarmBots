@@ -10,7 +10,7 @@ Type `sudo nano ~/../../etc/hosts` and add the following entries to the file.
 192.168.XX.XX       Computer3
 ... 
 ```
-You need to enable the multicast feature as well. To temporarily do the same, type the following command.
+You need to enable the [multicast](https://manpages.ubuntu.com/manpages/jammy/man4/multicast.4freebsd.html#:~:text=Multicast%20routing%20is%20used%20to,of%20the%20same%20data%20packets.) feature as well. To temporarily do the same, type the following command.
 ```
 sudo sh -c "echo 0 >/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts"
 ```
@@ -33,4 +33,4 @@ To check all the ROS masters available at the same network, execute the followin
 ```
 rosservice call /master_discovery/list_masters
 ```
-Now we may test a simple talker-listener program under 
+Now we may test a simple ***talker-listener*** program using [rospy_tutorials](http://wiki.ros.org/rospy_tutorials). Simply launch `talker` node on one of the machines and `listener` on the rest.
