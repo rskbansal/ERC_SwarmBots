@@ -14,11 +14,12 @@ You need to enable the [multicast](https://manpages.ubuntu.com/manpages/jammy/ma
 ```
 sudo sh -c "echo 0 >/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts"
 ```
-To enable it permanently, type `sudo nano ~/../../etc/sysctl.conf` and add the following line to the file
+> **Note**  
+> To enable it permanently, type `sudo nano ~/../../etc/sysctl.conf` and add the following line to the file
 ```
 net.ipv4.icmp_echo_ignore_broadcasts=0
 ```
-Once added, type `sudo service procps restart` for the changes to take effect
+> Once added, type `sudo service procps restart` for the changes to take effect
 ## Example run
 Now, we will launch ***fkie_multimaster*** nodes on different machines. The first step is to launch `roscore` on all the machines.  
 Then, open a new terminal instance and launch the `master_discovery` node on each machine.
@@ -35,7 +36,6 @@ rosservice call /master_discovery/list_masters
 ```
 Now we may test a simple ***talker-listener*** program using [rospy_tutorials](http://wiki.ros.org/rospy_tutorials). Simply launch `talker` node on one of the machines and `listener` on the rest.
 
-> **Note**  
 > This is a note
 
 > **Warning**  
