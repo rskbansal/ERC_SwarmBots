@@ -13,8 +13,9 @@ Type `sudo nano ~/../../etc/hosts` and add the following entries to the file.
 You need to enable the [multicast](https://manpages.ubuntu.com/manpages/jammy/man4/multicast.4freebsd.html#:~:text=Multicast%20routing%20is%20used%20to,of%20the%20same%20data%20packets.) feature as well. To temporarily do the same, type the following command.
 ```
 sudo sh -c "echo 0 >/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts"
-
 ```
+<br>
+
 > **Note**  
 > To enable it permanently, type `sudo nano ~/../../etc/sysctl.conf` and add the following line to the file
 > ```
