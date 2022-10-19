@@ -37,8 +37,3 @@ To check all the ROS masters available at the same network, execute the followin
 rosservice call /master_discovery/list_masters
 ```
 Now we may test a simple ***talker-listener*** program using [rospy_tutorials](http://wiki.ros.org/rospy_tutorials). Simply launch `talker` node on one of the machines and `listener` on the rest.
-
-> This is a note
-
-> **Warning**  
-> This is a warning
