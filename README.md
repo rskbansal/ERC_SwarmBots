@@ -8,6 +8,7 @@ We will be using the [ROS Noetic Ninjemys](https://wiki.ros.org/noetic/) for our
 - Nodes on multiple machines
 - multimaster
   - [Setting up multimaster_fkie](/multimaster/SETUP.md)
+  - [Deploying multimaster on multiple devices](/multimaster/DEPLOY.md)
 ## References
 - [ROS Wiki](https://wiki.ros.org/)
 - [Programming Robots with ROS](/Programming_Robots_with_ROS.pdf)
