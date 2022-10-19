@@ -21,7 +21,7 @@ net.ipv4.icmp_echo_ignore_broadcasts=0
 Once added, type `sudo service procps restart` for the changes to take effect
 ## Example run
 Now, we will launch ***fkie_multimaster*** nodes on different machines. The first step is to launch `roscore` on all the machines.  
-Then, open a new terminal instance and launch the `master_discovery` node on each machine.
+Then, open a new terminal instance and launch the <mark>master_discovery</mark> node on each machine.
 ```
 rosrun fkie_master_discovery master_discovery _mcast_group:=224.0.0.1
 ```
