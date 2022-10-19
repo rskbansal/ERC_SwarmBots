@@ -1,7 +1,7 @@
-# multimaster_fkie
+# Setup multimaster_fkie
 <img src="../assets/img/ROS_logo.png" alt="drawing" height="40"/>
 
-Everything you need to get started with multiple masters in ROS!
+Everything you need to know to get started with multiple masters in ROS!
 ## What is [multimaster_fkie](http://wiki.ros.org/multimaster_fkie)?
 The ROS stack of ***fkie_multimaster*** offers a complete solution for using ROS with multicores. In addition, Node Manager with a daemon provide a GUI-based management environment that is very useful to manage ROS-launch configurations and control running nodes, also in a single-core system.
 
