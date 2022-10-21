@@ -2,7 +2,8 @@
 <img src="../assets/img/ROS_logo.png" alt="drawing" height="40"/>
 
 Now that you have successfully installed all the dependencies for running multiple masters, let's get started with deployment of the same.
-## IP Adress binding & other pre-requisites
+## Pre-requisites
+### IP Adress binding
 Type `sudo nano ~/../../etc/hosts` and add the following entries to the file.
 ```
 192.168.XX.XX       Computer1
@@ -10,6 +11,7 @@ Type `sudo nano ~/../../etc/hosts` and add the following entries to the file.
 192.168.XX.XX       Computer3
 ... 
 ```
+### Multicast
 You need to enable the [multicast](https://manpages.ubuntu.com/manpages/jammy/man4/multicast.4freebsd.html#:~:text=Multicast%20routing%20is%20used%20to,of%20the%20same%20data%20packets.) feature as well. To temporarily do the same, type the following command.
 ```
 sudo sh -c "echo 0 >/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts"
