@@ -38,7 +38,8 @@ To check all the ROS masters available at the same network, execute the followin
 ```
 rosservice call /master_discovery/list_masters
 ```
-Now we may test a simple ***talker-listener*** program using [rospy_tutorials](http://wiki.ros.org/rospy_tutorials). Just launch `talker` node on one of the machines and `listener` on the rest.
+- Now we may test a simple ***talker-listener*** program using [rospy_tutorials](http://wiki.ros.org/rospy_tutorials). Just launch `talker` node on one of the machines and `listener` on the rest.
+- We can even control `turtlebot` on one machine from controllers on the others.
 ## References
 - [Report on multimaster ROS systems](https://digital.csic.es/bitstream/10261/133333/1/ROS-systems.pdf)
 - [ROS Wiki for multimaster](http://wiki.ros.org/multimaster_fkie)  
