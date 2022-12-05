@@ -7,12 +7,12 @@ The ROS stack of ***fkie_multimaster*** offers a complete solution for using ROS
 
 ## Install from source
 The first step is to install Python [gRPC](https://grpc.io/), which helps in communication purposes.
-```
+```console
 sudo apt install python3-grpcio
 sudo apt install python3-grpc-tools
 ```
 Now, make sure you are present in the `src` folder of your ***catkin workspace***, just type `cd ~/catkin_ws/src`. And then, execute the following commands :-
-```
+```console
 git clone https://github.com/fkie/multimaster_fkie.git multimaster
 rosdep update
 rosdep install -i --as-root pip:false --reinstall --from-paths multimaster
